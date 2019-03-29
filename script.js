@@ -11,6 +11,6 @@ function myFunction() {
       if(y < 2)  throw "Invalid input, please try again.";
     }
     catch(err) {
-      message.innerHTML = err;
+      message.innerHTML = err; 
     }
   }
